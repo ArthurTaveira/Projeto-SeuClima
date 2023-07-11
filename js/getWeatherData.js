@@ -1,7 +1,7 @@
 
 
-// const apiKey = 'ea2c65c6d89f312a88df9c99848aa28b';
-import { apiKey } from '../senha.js'
+const apiKey = 'ea2c65c6d89f312a88df9c99848aa28b';
+
 
 //funcao sincrona para chamada de api WeatherData
 
