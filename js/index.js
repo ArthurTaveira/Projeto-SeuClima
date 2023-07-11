@@ -2,6 +2,8 @@
 
 import showWeatherData from "./showWeatherData.js";
 
+
+
 //variaveis
 const cityInput = document.querySelector('#city-input');
 const searchBtn = document.querySelector('#search');
