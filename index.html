@@ -20,6 +20,13 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> -->
 
+    <!--animacao-->
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
     <!--css-->
 
     <link rel="stylesheet" href="sass/style.css">
@@ -37,7 +44,7 @@
             <h3 class="titulo">Procure pelo nome ou Cep</h3>
 
             <div class="form-input-container">
-                    <div class="cidadeEscondida">
+                    <div class="cidadeEscondida animate__animated animate__zoomIn">
                         <label for="city-input " class="label-input">Cidade:</label>
                         <div class="caixa-pesquisa">
                         
@@ -49,7 +56,7 @@
                         </div>
                     </div>
                 
-                <div class="cepEscondido hide">
+                <div class="cepEscondido hide animate__animated animate__zoomIn">
                     <label for="cep " class="label-input">Cep: </label>
                     <div class="form-group caixa-pesquisa">
                         <input type="text" class="form-control" id="cep" placeholder="CEP Ex: 12345678" autofocus required>
@@ -61,8 +68,8 @@
 
                 
             </div>
-            <div class="procurar-por-cep " >Procurar por CEP</div>
-            <div class="procurar-por-cidade hide" >Procurar por Cidade</div>
+            <div class="procurar-por-cep animate__animated  " >Procurar por CEP</div>
+            <div class="procurar-por-cidade hide animate__animated " >Procurar por Cidade</div>
         </div>
 
         <!--Dados-->
@@ -116,6 +123,10 @@
                     <h3 class="sugestion-icon" id="moscou">Moscou</h3>
                 </div>
             </div>
+        </div>
+
+        <div id="sugestoesBtn" class="hide sla"> 
+            <h3 class="botaoSugestoes ">Sugestões</h3>
         </div>
     </div>
 

@@ -15,6 +15,7 @@ const weatherContainer=document.querySelector(  '#weather-data')
 const sugestionsContainer = document.querySelector('.sugestions')
 const cityInput = document.querySelector('#city-input');
 const pegaCep = document.querySelector("#cep");
+const sugestoes = document.querySelector('#sugestoesBtn')
 
 
 const showWeatherData = async (city) => {
@@ -34,6 +35,7 @@ const showWeatherData = async (city) => {
     document.body.style.backgroundImage = `url("${apiUnsplash + city}")`;
 
     sugestionsContainer.classList.add("hide")
+    sugestoes.classList.remove("hide")
 
     // cityInput.value = ' '
     // pegaCep.value = ' '

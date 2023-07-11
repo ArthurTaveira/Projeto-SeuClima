@@ -113,6 +113,12 @@ const berlim = document.querySelector('#berlim')
 const tokyo = document.querySelector('#tokyo')
 const paris = document.querySelector('#paris')
 const moscou = document.querySelector('#moscou')
+const sugestoes = document.querySelector('#sugestoesBtn')
+
+sugestoes.addEventListener("click", (e)=> {
+    sugestoes.classList.add('hide')
+    sugestionsContainer.classList.remove('hide')
+})
 
 
 altonia.addEventListener('click', e => {
