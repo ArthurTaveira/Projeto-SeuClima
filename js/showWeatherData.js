@@ -26,13 +26,13 @@ const showWeatherData = async (city) => {
     tempElement.innerText = parseInt(data.main.temp);
     descElement.innerText = data.weather[0].description
     weatherIconElement.setAttribute("src", `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`)
-    countryElement.setAttribute('src', `https://www.countryflagicons.com/FLAT/64/${data.sys.country}.png` )
+    //countryElement.setAttribute('src', `https://www.countryflagicons.com/FLAT/64/${data.sys.country}.png` )
     humidityElement.innerHTML = `${data.main.humidity}%`
     windElement.innerHTML = `${data.wind.speed}Km/h`
     
     weatherContainer.classList.remove( 'hide')
 
-    document.body.style.backgroundImage = `url("${apiUnsplash + city}")`;
+  //  document.body.style.backgroundImage = `url("${apiUnsplash + city}")`;
 
     sugestionsContainer.classList.add("hide")
     sugestoes.classList.remove("hide")
